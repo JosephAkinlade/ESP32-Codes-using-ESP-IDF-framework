@@ -72,7 +72,7 @@ void app_main()
 
     for(uint8_t i = 0; i < ap_num; i++)
     {
-        printf("%32s    | %7d   | %4d   | %12s\n", (char*)ap_records[i].ssid, ap_records[i].primary, ap_records[i].rssi, getAuthModeName(ap_records[i].authmode));
+        printf("%32s  | %7d   | %4d   | %12s\n", (char*)ap_records[i].ssid, ap_records[i].primary, ap_records[i].rssi, getAuthModeName(ap_records[i].authmode));
     }
 
     //infinite loop
