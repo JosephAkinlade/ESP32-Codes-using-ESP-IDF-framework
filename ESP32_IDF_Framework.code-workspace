@@ -5,6 +5,10 @@
 		},
 		{
 			"path": "blink2"
+		},
+		{
+			"name": "WiFi_Scanner_V2",
+			"path": "WiFi_Scanner_V2"
 		}
 	],
 	"settings": {}
